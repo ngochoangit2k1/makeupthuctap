@@ -1,0 +1,120 @@
+.product__thumb-img {
+    position: relative;
+  }
+  .product__thumb-img #expandedImg {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .product-item__thumb-sale {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.3rem;
+    background-color: #ff6a28;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+  }
+  .product-item {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+  }
+  .product-item__thumb {
+    position: relative;
+  }
+  .product__thumb .product-item__thumb-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+  .product__name {
+    color: #000;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .product-item__ratting {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 10px;
+  }.product-item__ratting li {
+    margin: 0 2px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6a28;
+  }
+  .product-item__price {
+    display: inline-flex;
+  }.product-item__current-price {
+    color: #242424;
+    font-size: 2.4rem;
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  .product-item__old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  .product-item__description, .spr-badge-caption {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: #242424;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  .btn-add-to-cart {
+    border: 0;
+    margin-left: 15px;
+    color: #fff;
+    text-transform: inherit;
+    background: #242424;
+    font-size: 13px;
+    line-height: 50px;
+    padding: 0 100px;
+    height: 50px;
+    border-radius: 3px;
+  }
+  .share-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .share-icon__title {
+    line-height: 18px;
+    font-size: 14px;
+    color: #242424;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .share-icon__title,.spr-badge-caption {
+    margin: 0;
+  }
+  .share-icon__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .share-icon__item a {
+    font-size: 2rem;
+    padding: 5px;
+  }
+  .share-icon__item .bi-facebook {
+    color: #3b5998;
+  }
+  .share-icon__item .bi-twitter {
+    color: #55acee;
+  }
+  .share-icon__item .bi-google {
+    color: #dd4b39;
+  }
+  .share-icon__item .bi-pinterest {
+    color: #c8232c;}
+

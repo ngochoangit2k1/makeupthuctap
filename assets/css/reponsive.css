@@ -1,0 +1,191 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    :root{
+      
+    }
+        .hide-on-mobile-tablet{
+            display: none;
+        }
+        .shop-title.mobile{
+            display: none;
+        }
+        .banner__content-heading {
+            font-size: 3.6rem;
+            line-height: 4.2rem;
+        
+        }
+        .banner .btn-primary{
+            margin-top: 10px;
+        }
+        .heading-title {
+        font-size: 2.6rem;
+        }
+        .service-slide__content-heading{
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+        .service-slide__content{
+            padding: 0 10px 0 20px;
+            text-align: center;
+        }
+        .service-slide__content-subtext {
+            font-size: 1.5rem;
+          
+        }
+        .service-slide__content-heading.text-primary{
+            font-size: 2rem;
+            margin: 0;
+        }
+        .service-slide__content-descriptions{
+            line-height: 2.6rem;
+            margin-bottom: 10px;
+        }
+        .banner__content-descriptions {
+            display: none;
+         }
+    }
+    /* tablet */
+    @media (min-width:740px) and (max-width:1023px){
+        :root{
+           
+        }
+        .blog-height{
+            height:auto;
+        }
+        .container-fluid{
+            margin:  auto;
+        }
+        .category-fuild{
+            display: none;
+        }
+        .hide-on-tablet{
+            display: none;
+        }
+        .background-button{
+            width: 50%;
+          }
+       .mt-4{
+        margin-top: 40px;
+       }
+       
+       
+    }
+    @media(max-width:739px){
+        :root{
+            --header-height:54px;
+            --navbar-height:0px;
+        }
+        .blog-post__item-content__title {
+            font-size: 2rem !important;
+            text-transform: inherit;
+            font-weight: bold;
+            line-height: 2.8rem;
+            margin-bottom: 10px;
+        }
+        .grid.wide {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .hide-on-mobile{
+            display: none;
+        }
+        .banner__img {
+           
+            height: auto;
+            object-fit: cover;
+           
+        }
+        .banner__content-subtext {
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+         
+        }
+        .banner__content-heading {
+            font-size: 2.6rem;
+            line-height: 3.2rem;
+        }
+        .service-item__heading {
+            padding: 5px;
+            font-size: 1.4rem;
+           
+        }
+        .single-post__date{
+            display: none;
+        }
+        .service-item__price-new,.service-item__price-old {
+            font-size: 1.4rem;
+            
+           
+        }
+        .btn-primary{
+            margin-bottom: 20px;
+        }
+        .service-item {
+            margin-top: 30px;
+           
+        }
+        .form-contact{
+            width: auto !important;
+        }
+
+
+        /* blog  */
+        .blog-post__item{
+            flex-direction: row;
+            position: relative;
+         
+            margin-bottom: 30px;
+        }
+        .blog-post__item-thumb{
+            /* width: 100%; */
+            height: 200px;
+        }
+        .blog-post__item-content{
+            margin:10px 0 0;
+            width: 100%;
+        }
+        
+        .blog-post__item-content__date {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding:0 5px;
+            background: #fff;
+        }
+        .blog-post__item-content__date .day{
+            font-size: 2rem;
+        }
+       
+        .single-post__inner {
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: normal;
+        }
+        .single-post__thumb{
+            position: relative;
+        }
+        .filter-gallery .image {
+            width: calc(100%/2) !important;
+            height:250px !important;
+            overflow: hidden;
+          
+        }
+        .hero .banner__img {
+            height: 30vh;
+        }
+        .container, .container-fluid {
+            margin-top: 65px;
+            margin-bottom: 0px;
+        }
+        /* about  */
+        .background-button{
+            width: 80%;
+          }
+        .heading-title-3{
+            text-align: center;
+        }
+
+        .mt-4{
+            margin-top: 40px;
+           }
+        }

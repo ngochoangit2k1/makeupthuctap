@@ -1,0 +1,384 @@
+.customer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.service .row {
+    justify-content: center;
+}
+
+.bar-menu {
+    padding-top: 40px;
+}
+
+.drop-select {
+    padding-top: 20px;
+}
+
+/* Tree thư mục */
+.tree p {
+    font-size: 1.6rem;
+}
+/* End Tree thư mục */
+
+
+/* Blog */
+.blog-post__item {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.blog-post__item-thumb {
+    width: 40%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.blog-post__item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-post__item-content {
+    margin: 0 20px;
+    flex: 1;
+    width: 60%;
+}
+
+.blog-post__item-content__title {
+    font-size: 1.5rem;
+    text-transform: inherit;
+    font-weight: bold;
+    line-height: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.blog-post__item-content__description {
+    color: #747474;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/* End Blog */
+
+
+/* Left Blog Details */
+.category-fuild {
+    padding: 50px;
+    width: 28%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.category-fuild__tables {
+    padding-bottom: 10px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 1.6rem;
+}
+
+.list-group-item:hover {
+    background-color: #a9a3a3;
+}
+
+.category-details__heading {
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 2px #eee solid;
+}
+
+.list-group-makeup,
+.list-group-makeup:hover {
+    backface-visibility: hidden;
+    position: relative;
+    transition: 0.5s color ease;
+    font-size: 1.6rem;
+    padding: 5px 15px;
+    margin-left: 15px;
+    display: block;
+}
+
+.list-group-makeup:hover {
+    color: #ff6a28;
+}
+/* End Left Blog Details */
+
+
+/* Bottom chuyển trang */
+.shop-pagination {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.shop-pagination__list {
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.shop-pagination__list {
+    list-style: none;
+}
+
+.shop-pagination__list li {
+    padding: 0 3px;
+}
+
+.shop-pagination__list a {
+    padding: 5px 10px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #747474;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+}
+
+.shop-pagination__list a:hover,
+.shop-pagination__list li.current a {
+    background-color: #ff6a28;
+    color: #fff
+}
+
+.shop-pagination__list .disabled a {
+    user-select: none;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+/* End Bottom chuyển trang */
+
+
+/* Droplist */
+.dropdown {
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    text-align: left;
+}
+
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+
+.dropdown .select>i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+}
+
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+
+.dropdown:active {
+    background-color: #f8f8f8
+}
+
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 2px 2px 0 0;
+    background-color: #f8f8f8
+}
+
+.dropdown.active .select>i {
+    transform: rotate(-90deg)
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9
+}
+
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+}
+
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+/* End Droplist */
+
+
+/* Gallery Images */
+.heading-title {
+    position: relative;
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 3.2rem;
+    text-align: center;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.heading-title::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    margin: auto;
+    width: 15%;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+}
+
+.container-galerry {
+    max-width: 100%;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.container-galerry nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-galerry nav .items {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    overflow: overlay;
+    justify-content: center;
+}
+
+.container-galerry nav .items .item {
+    padding: 10px 33px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0b0707;
+    background-color: #fff;
+    border: 1px solid #111312;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.container-galerry nav .items .acitve,
+.container-galerry nav .items .item:hover {
+    color: #fff;
+    background: var(--primary-color);
+    border: none;
+}
+
+.filter-gallery {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-gallery .image {
+    width: calc(100%/4);
+    padding: 5px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.filter-gallery .image.hide {
+    display: none;
+}
+
+.filter-gallery .image.show {
+    display: block;
+}
+
+.filter-gallery .image span {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.filter-gallery .image img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+    border: 1px solid #7c899a;
+
+}
+
+.filter-gallery .image:hover img {
+    transform: scale(1.1);
+}
+
+/* End Gallery Images */
+
+/* Form contact */
+.form-contact {
+    width: 700px;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.form-heading {
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-descriptions {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-contact .btn-primary {
+    width: 100%;
+}
+/* End Form contact */
